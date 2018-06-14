@@ -1,7 +1,7 @@
 {
     "name": "hello-bot",
     "version": "1.0.0",
-    "description": "My own Discord bot",
+    "description": "Hello Bot says hello and does other stuff too!",
     "main": "build/app.js",
     "author": "Chris Clutton",
     "scripts": {

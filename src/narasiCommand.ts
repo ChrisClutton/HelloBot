@@ -6,7 +6,7 @@ export class NarasiCommand extends Command {
         super()
     }
     trigger(message: Message) {
-        if (message.member.user.tag === "Narasi#2418" && Math.random() > 0.9) {
+        if (message.member.user.tag === "Narasi#2418" && Math.random() > 0.8) {
             message.react("🤔")
         }
     }

@@ -5,6 +5,7 @@ import { HelloCommand } from "./helloCommand";
 import { Client } from "discord.js"
 import { NarasiCommand } from "./narasiCommand";
 import { YuzzuCommand } from "./yuzzuCommand";
+import {VeziraCommand} from "./veziraCommand";
 
 var helloResponses = require('../helloResponses.json')
 var auth
@@ -46,5 +47,6 @@ client.on('message', message => {
 commands.push(new HelloCommand())
 commands.push(new NarasiCommand())
 commands.push(new YuzzuCommand())
+commands.push(new VeziraCommand)
 
 client.login(auth.token)

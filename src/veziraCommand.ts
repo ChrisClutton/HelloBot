@@ -1,13 +1,13 @@
 import { Command, TriggerResult } from "./command";
 import { Message } from "discord.js";
 
-export class NarasiCommand extends Command {
+export class VeziraCommand extends Command {
     constructor(){
         super()
     }
     trigger(message: Message) {
-        if (message.member.user.tag === "Narasi#2418" && Math.random() > 0.9) {
-            message.react("🤔")
+        if (message.member.user.tag === "Raz#4231" && Math.random() > 0.9) {
+            message.react("👌")
         }
     }
 }

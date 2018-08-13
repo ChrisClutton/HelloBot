@@ -7,7 +7,7 @@ export class YuzzuCommand extends Command {
     }
     trigger(message: Message) {
         var time = new Date()
-        if (message.member.user.tag === "Yuzzu Uzzzu#3583" && time.getHours() > 16 && time.getHours() < 21) {
+        if (message.member.user.tag === "Yuzzu Uzzzu#3583" && time.getHours() > 16 && time.getHours() < 22) {
             message.react("💤")
         }
     }
